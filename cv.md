@@ -11,7 +11,7 @@ E-mail: *bonadyk2009@gmail.com*
 My goal and priorities are yet to be determined,  
 since i have just graduated from 9th grade, yet the  
 best case csenario is eventually becoming a frontend  
-developer (plan B is being a plumber).\
+developer (plan B is being a plumber).
 
 ### My skills
 
