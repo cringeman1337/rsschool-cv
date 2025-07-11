@@ -55,7 +55,7 @@
 .photo {
     width: 90%;
     height: 25%;
-    background-image: url("photo.jpg");
+    background-image: url("images/photo.jpg");
     background-position: center;
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -150,5 +150,5 @@ a {
 
 body {
     background-size: cover;
-    background-image: url("bg.webp");
+    background-image: url("images/bg.webp");
 }
