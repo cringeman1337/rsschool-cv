@@ -7,6 +7,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">This is a title</h1>
+    
+    <div class="whole">
+        <header class="header">CV</header>
+        <div class="container">
+            <div class="left">
+                <img class="photo" alt="my_photo"></img>
+                <div class="lt">
+                    <h1>BANADYK IVAN</h1>
+                    <h2>About me</h2>
+                    <p>I am a 9th grade graduate living in Mogilev. My goals are yet to be determined, but the best case scenario is becoming a frontend developer.</p>
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>Some experience in Python programming</li>
+                        <li>Unsubstantial knowledge of C++ and OpenGL</li>
+                        <li>Somewhat considerable experience with React</li>
+                    </ul>
+                    
+                    <h2>My study projects</h2>
+                    <p>
+                        <a href="https://github.com/cringeman1337/ViteWeather">React weather app</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/cringeman1337/react-news">Janky react news app</a>
+                    </p>
+                    <h2>My other projects</h2>
+                    <p>
+                        <a href="https://github.com/cringeman1337/PyRaycaster">Dumb python raycasting program</a>
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="rt">
+                    <h2>Code example</h2>
+                    <code class="code">
+                        <div class="codediv">#include &lt;string&gt;<br>
+                        bool solution(std::string const &STRING, std::string const &END) {<br>
+                          if (END.length() > STRING.length())<br>
+                          {<br>
+                            return false;<br>
+                          }<br>
+                          if (STRING.substr(STRING.length() - END.length(), STRING.length()) == END)<br>
+                            {<br>
+                            return true;<br>
+                        }<br>
+                          return false;<br>
+                        }</div>
+                    </code>
+                    <h2>Education</h2>
+                    <p>I've graduated from 9th grade</p>
+                    <h2>English level</h2>
+                    <p>I would love to flex with my Olympiads diplomas, but i won't. I did not check my english level according to CEFR system.</p>
+                    <h2>Contact info</h2>
+                    <p class="contact">Telegram nickname:  @kafelnaya_plitka</p>
+                    <p class="contact">Discord nickname:  cringeman(@cringeman1337)</p>
+                    <p class="contact">E-mail:  bonadyk2009@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <nav class="nav">
+                <div class="fleft">
+                    <div><a href="https://github.com/cringeman1337">My GitHub account</a></div>
+                    <div><a href="https://rs.school/courses/javascript-ru">Course link</a></div>
+                </div>
+                <div class="fright">
+                    <img class="course" src="rs-school-logo.svg" alt="like damn">
+                </div>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
