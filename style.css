@@ -123,11 +123,8 @@
     height: 8vh;
 }
 
-.code {
-    text-align: left;
-}
-
 .codediv {
+    text-align: left;
     background-color: rgba(48, 48, 48, 0.95);
     border: 1px solid #444444;
     border-radius: 12px;
